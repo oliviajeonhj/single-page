@@ -1,0 +1,82 @@
+.youtube{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#top_video{
+    height: 0;
+    padding-top: 56%;
+}
+
+#top_video iframe{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#brand{
+    height: 500px;
+    background-image: url(../img/wide/top_banner1.png);
+    background-color: #fec106;
+    background-size: contain;
+    background-position: center;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+#top_info{
+    margin: 50px auto;
+    padding: auto;
+    text-align: center;
+    font-size: 3rem;
+    color:#ff5e00;
+
+}
+
+#top_swiper{
+    max-width: 1400px;
+}
+
+#mid_swiper{
+    max-width: 1400px;
+}
+
+#top_swiper .swiper-pagination-bullet-active{
+    width: 30px !important;
+    background-color: #fec106;
+}
+#top_swiper .swiper-pagination-bullet{
+    width: 12px; height: 12px;
+    border-radius: 16px;
+    transition: 0.6s;
+}
+
+#mid_swiper .swiper-pagination-bullet-active{
+    width: 30px !important;
+    background-color: #ff5e00;
+}
+#mid_swiper .swiper-pagination-bullet{
+    width: 12px; height: 12px;
+    border-radius: 16px;
+    transition: 0.6s;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    color: #ff5e00;
+}
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    color: #ff5e00;
+}
+
+#olivia > a{
+    font-size: 3rem;
+}
